@@ -1,0 +1,45 @@
+body {
+  font-family: georgia, serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1[class*='-title'],
+h2[class*='-title'],
+h3[class*='-title'],
+button,
+label,
+input {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.entry-footer {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.comment-meta,
+.comment-metadata,
+.comment-reply-link,
+.logged-in-as,
+.comment-list .reply a,
+.comment-form-comment,
+.comment-form-label,
+.comment-form label,
+#comment,
+#submit {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.search-field {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.site-title,
+.site-description {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.post-navigation .meta-nav,
+.post-navigation .post-title,
+.main-navigation {
+  font-family: "Source Sans Pro", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

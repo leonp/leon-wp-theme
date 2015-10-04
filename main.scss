@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// Variables
+
+// Fonts
+$main-font: georgia, serif;
+$secondary-font: 'Source Sans Pro', sans-serif;
+
+
+// Breakpoints
+// See https://wordpress.org/support/topic/media-query-breakpoints
+$mob-large: "screen and (min-width: 620px)";
+$tab-small: "screen and (min-width: 740px)";
+$tab-large: "screen and (min-width: 880px)";
+$desk-small: "screen and (min-width: 967px)";
+$desk-med: "screen and (min-width: 1100px)";
+$desk-large: "screen and (min-width: 1240px)";
+$desk-xl: "screen and (min-width: 1403px)";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "sass/base",
+    "sass/entry",
+    "sass/comments",
+    "sass/search",
+    "sass/branding",
+    "sass/nav"
+;
