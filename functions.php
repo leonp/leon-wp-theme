@@ -9,7 +9,7 @@ function twentyfifteen_fonts_url() {
 }
 
 
-// Enqueue main.css and the parent theme's style.CSS
+// Enqueue main.css, the parent theme's style.CSS and Roboto
 
 function rbt_styles() {
 
@@ -19,6 +19,7 @@ function rbt_styles() {
         get_stylesheet_directory_uri() . '/main.css',
         array( $parent_style )
     );
+    wp_enqueue_script( 'roboto', get_stylesheet_directory_uri() . '/js/fonts.js', array(), '1.0.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'rbt_styles' );

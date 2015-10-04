@@ -13,10 +13,10 @@ h3[class*='-title'],
 button,
 label,
 input {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: roboto, sans-serif; }
 
 .entry-footer {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: roboto, sans-serif; }
 
 .comment-meta,
 .comment-metadata,
@@ -28,18 +28,18 @@ input {
 .comment-form label,
 #comment,
 #submit {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: roboto, sans-serif; }
 
 .search-field {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: roboto, sans-serif; }
 
 .site-title,
 .site-description {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: roboto, sans-serif; }
 
 .post-navigation .meta-nav,
 .post-navigation .post-title,
 .main-navigation {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: roboto, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
